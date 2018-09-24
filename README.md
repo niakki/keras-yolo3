@@ -11,9 +11,10 @@ A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/
 
 ## Quick Start
 
-1. Download YOLOv3 weights from [YOLO website](http://pjreddie.com/darknet/yolo/).
-2. Convert the Darknet YOLO model to a Keras model.
-3. Run YOLO detection.
+1. run ```pip install -r requirements.txt``` in terminal
+2. Download YOLOv3 weights from [YOLO website](http://pjreddie.com/darknet/yolo/).
+3. Convert the Darknet YOLO model to a Keras model.
+4. Run YOLO detection.
 
 ```
 wget https://pjreddie.com/media/files/yolov3.weights
